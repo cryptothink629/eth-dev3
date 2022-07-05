@@ -22,4 +22,9 @@
 
 ### Solidity语言
 * [Solidity官方文档](https://docs.soliditylang.org/en/latest/)
+* [Solidity中文文档](https://learnblockchain.cn/docs/solidity/introduction-to-smart-contracts.html)
 * [Solidity by Example](https://solidity-by-example.org/app/erc20/)
+* [Storage and memory](https://blog.csdn.net/qq_33829547/article/details/80459480)
+
+### 相关概念
+* [JSON-RPC](https://zhuanlan.zhihu.com/p/44096204)
