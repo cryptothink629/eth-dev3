@@ -49,6 +49,13 @@ unzip mainnet.zip
 geth --config ./config.toml --datadir ./node
 ```
 
+#### Tips
+
+```
+# keep light storage
+nohup geth snapshot prune-state --datadir {the data dir of your bsc node} &
+```
+
 ## 总结
 
 这篇文章介绍了bsc链的节点部署，而且推荐了一种简洁有效的路径来完成，没有试图大而全的介绍完所有的其他方法。 遗憾的是这篇文章并不是手把手教学，只适合搭建过以太坊链的，
@@ -63,3 +70,7 @@ https://github.com/bnb-chain/bsc
 https://github.com/bnb-chain/bsc-snapshots
 
 https://medium.com/@pieterc/running-a-full-node-with-geth-bsc-610085141248
+
+https://github.com/bnb-chain/bsc/issues/502
+
+https://github.com/ethereum/go-ethereum/issues/24413
